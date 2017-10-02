@@ -1,2 +1,3 @@
-# js-computer-science
-In this repo i'll try to implement different algorithms and data structures in javascript
+# js-computer-science-menotoring
+
+In this repository i will publish task for practicing in computer science.
