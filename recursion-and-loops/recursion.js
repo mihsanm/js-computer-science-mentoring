@@ -3,14 +3,14 @@
 // @return {number}
 
 function euclidianAlgorithm(a, b) {
-
+  return ;
 }
 
 // @param num {number}
 // @return {number}
 
 function fibbonaci(num) {
-
+  return ;
 }
 
 // @param disksCount {string}
@@ -21,5 +21,12 @@ function fibbonaci(num) {
 
 
 function hanoiTower(disksCount, firstTower, secondTower, thirdTower) {
+  return ;
+}
 
+// @param num {number}
+// @return {bool}
+
+function isPrime(num, p = 2) {
+  return ;
 }
