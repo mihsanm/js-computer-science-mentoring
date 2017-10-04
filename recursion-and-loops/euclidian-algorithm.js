@@ -12,3 +12,14 @@ function euclidianAlgorithm(a, b) {
 function fibbonaci(num) {
 
 }
+
+// @param disksCount {string}
+// @param firstTower {string}
+// @param secondTower {string}
+// @param thirdTower {number}
+// @return full description of moving disks from first tower to third tower
+
+
+function hanoiTower(disksCount, firstTower, secondTower, thirdTower) {
+
+}
