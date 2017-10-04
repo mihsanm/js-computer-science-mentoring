@@ -25,8 +25,17 @@ function hanoiTower(disksCount, firstTower, secondTower, thirdTower) {
 }
 
 // @param num {number}
+// @param p {number} = 2, you don't need to pass this argument
 // @return {bool}
 
 function isPrime(num, p = 2) {
+  return ;
+}
+
+// @param num {number}
+// @param exp {number}
+// @return {number}
+
+function power(num, exp) {
   return ;
 }
