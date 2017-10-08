@@ -101,10 +101,18 @@ function isPrime(num, p = 2) {
 }
 /*--------------------------------------------------------------------------------------------------------------------*/
 
-// @param num {number}
-// @param exp {number}
-// @return {number}
-
+/**
+ * Recursive realization
+ * @param num {number}
+ * @param exp {number}
+ * @returns {number}
+ */
 function power(num, exp) {
-  return undefined;
+
+    if (exp !== 1) {
+        return num * power(num, exp - 1);
+    } else {
+        return num;
+    }
+
 }
