@@ -42,11 +42,41 @@ function euclidianAlgorithmCycle(a, b) {
 }
 /*--------------------------------------------------------------------------------------------------------------------*/
 
-// @param num {number}
-// @return {number}
+/**
+ *
+ * @param num {number}
+ * @returns {number}
+ */
+function fibonacci(num) {
 
-function fibbonacci(num) {
-  return undefined;
+  if ( num > 2 ) {
+    return fibonacci(num-1) + fibonacci(num-2);
+  }
+
+  return 1;
+
+}
+
+/**
+ *
+ * @param num {number}
+ * @returns {number}
+ */
+function fibonacciCycle(num) {
+
+  if(num > 2){
+      let fibArr = [1, 1];
+
+      for( let i = 2; i < num; i+=1 ){
+
+          fibArr.push( fibArr[i-1] + fibArr[i-2] );
+
+      }
+
+      return fibArr[fibArr.length-1];
+  }
+
+  return null;
 }
 /*--------------------------------------------------------------------------------------------------------------------*/
 
