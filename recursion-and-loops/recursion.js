@@ -43,7 +43,7 @@ function euclidianAlgorithmCycle(a, b) {
 /*--------------------------------------------------------------------------------------------------------------------*/
 
 /**
- *
+ * Recursive realization
  * @param num {number}
  * @returns {number}
  */
@@ -58,7 +58,7 @@ function fibonacci(num) {
 }
 
 /**
- *
+ * Loop realization
  * @param num {number}
  * @returns {number}
  */
@@ -80,15 +80,26 @@ function fibonacciCycle(num) {
 }
 /*--------------------------------------------------------------------------------------------------------------------*/
 
-// @param disksCount {string}
-// @param firstTower {string}
-// @param secondTower {string}
-// @param thirdTower {number}
-// @return full description of moving disks from first tower to third tower
+/**
+ *
+ * @param disksCount {number}
+ * @param src {string}
+ * @param dest {string}
+ * @param tmp {string}
+ * @returns full description of moving disks from the first tower to the third tower
+ *
+ * hint: much more simpler to find out algorithm when playing this game (e.g. http://igroflot.ru/logic/flash_game_206/)
+ */
+function hanoiTower(disksCount, src, dest, tmp) {
 
+    if(disksCount === 1){
+        console.log( `Move ${disksCount} from ${src} to ${dest}` );
+    }else{
+        hanoiTower(disksCount-1, src, tmp, dest);
+        console.log( `Move ${disksCount} from ${src} to ${dest}` );
+        hanoiTower(disksCount-1, tmp, dest, src);
+    }
 
-function hanoiTower(disksCount, firstTower, secondTower, thirdTower) {
-  return undefined;
 }
 /*--------------------------------------------------------------------------------------------------------------------*/
 
