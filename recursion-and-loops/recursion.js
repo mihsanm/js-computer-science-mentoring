@@ -108,7 +108,21 @@ function hanoiTower(disksCount, src, dest, tmp) {
 // @return {bool}
 
 function isPrime(num, p = 2) {
-  return undefined;
+
+    if (num < 2) {
+        return false;
+    } // Базовый случай
+    else if (num == 2) {
+        return true;
+    } // Базовый случай
+    else if (num % p == 0) {
+        return false;
+    } // Шаг рекурсии / рекурсивное условие
+    else if (p < num/2) {
+        return isPrime(num, p+1);
+    } else {
+        return true;
+    }
 }
 /*--------------------------------------------------------------------------------------------------------------------*/
 
