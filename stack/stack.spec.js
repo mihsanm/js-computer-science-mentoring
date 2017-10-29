@@ -1,4 +1,5 @@
-import { Node, Stack } from '../stack';
+import Stack from './stack';
+import Node from './node';
 
 describe('Stack', () => {
     describe('#constructor', () => {

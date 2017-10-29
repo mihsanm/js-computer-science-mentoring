@@ -1,9 +1,4 @@
-export default class Node {
-  constructor(value) {
-    this.value = value;
-    this.next = null;
-  }
-}
+import Node from './node';
 
 export default class Stack {
   constructor() {
