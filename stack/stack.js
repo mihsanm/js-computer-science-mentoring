@@ -1,11 +1,11 @@
-class Node {
+export default class Node {
   constructor(value) {
     this.value = value;
     this.next = null;
   }
 }
 
-class Stack {
+export default class Stack {
   constructor() {
     this.top = null;
     this.length = 0;
