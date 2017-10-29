@@ -4,7 +4,7 @@
   "description": "In this repository i will publish task for practicing in computer science.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha stack/test/stack.spec.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/cheekeebreekee/js-computer-science-mentoring#readme",
   "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
     "chai": "^4.1.2",
     "mocha": "^4.0.1",
     "sinon": "^4.0.2",
