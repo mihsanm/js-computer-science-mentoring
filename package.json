@@ -1,0 +1,19 @@
+{
+  "name": "js-computer-science-mentoring",
+  "version": "1.0.0",
+  "description": "In this repository i will publish task for practicing in computer science.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheekeebreekee/js-computer-science-mentoring.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cheekeebreekee/js-computer-science-mentoring/issues"
+  },
+  "homepage": "https://github.com/cheekeebreekee/js-computer-science-mentoring#readme"
+}
