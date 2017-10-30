@@ -6,21 +6,15 @@ export default class Stack {
     this.length = 0;
   }
 
-  // delete the top element of stack
   pop() {
-
+    // delete the top element of stack
   }
 
-  // add element on top of stack
   push(value) {
-    let currentNode = this.top;
-    this.top = new Node(value);
-    this.top.next = currentNode;
-    this.length++;
+    // add element on top of stack
   }
 
-  // returns value of top stack element
   peek() {
-
+    // returns value of top stack element
   }
 }

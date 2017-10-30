@@ -7,23 +7,19 @@ export default class Queue {
     this.length = 0;
   }
 
-  // delete first element of queue
   shift() {
-
+    // delete first element of queue
   }
 
-  // add last element of queue
   unshift(value) {
-
+    // add last element of queue
   }
 
-  // returns size of queue
   size() {
-
+    // returns size of queue
   }
 
-  // returns true if queue is empty, else returns false
   isEmpty() {
-
+    // returns true if queue is empty, else returns false
   }
 }
