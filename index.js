@@ -1,4 +1,8 @@
-const stack = require('stack/stack');
+const Stack = require('stack/stack');
+const Queue = require('queue/queue');
 
-const w = new Stack();
-window.w = w;
+const s = new Stack();
+const q = new Queue();
+
+window.s = s;
+window.q = q;

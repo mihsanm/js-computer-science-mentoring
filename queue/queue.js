@@ -13,7 +13,7 @@ export default class Queue {
   }
 
   // add last element of queue
-  unshift() {
+  unshift(value) {
 
   }
 

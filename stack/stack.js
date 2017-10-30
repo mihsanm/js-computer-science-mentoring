@@ -12,8 +12,11 @@ export default class Stack {
   }
 
   // add element on top of stack
-  push() {
-
+  push(value) {
+    let currentNode = this.top;
+    this.top = new Node(value);
+    this.top.next = currentNode;
+    this.length++;
   }
 
   // returns value of top stack element

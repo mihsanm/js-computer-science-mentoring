@@ -14,7 +14,7 @@ describe('Stack', () => {
         it('should assign new node as _top of stack', () => {
             const value = 10;
 
-            const stack = new stack();
+            const stack = new Stack();
 
             stack.push(value);
 
@@ -23,7 +23,7 @@ describe('Stack', () => {
         });
 
         it('should set new node as _top of stack and add new value', () => {
-            const stack = new stack();
+            const stack = new Stack();
 
             stack.push(50);
             stack.push(100);
